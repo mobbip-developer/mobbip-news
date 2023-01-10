@@ -1,0 +1,8 @@
+export const META_DESCRIPTION_MAX_LENGTH =
+  Number(process.env.NEXT_PUBLIC_META_DESCRIPTION_MAX_LENGTH) || 155;
+
+export const META_TITLE_MAX_LENGTH =
+  Number(process.env.NEXT_PUBLIC_META_TITLE_MAX_LENGTH) || 67;
+
+export const META_TITLE_MINIMUM_LENGTH =
+  Number(process.env.META_TITLE_MINIMUM_LENGTH) || 30;
